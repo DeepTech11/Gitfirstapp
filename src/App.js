@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
+import First from './components/First';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [cview, setCView] = useState(false);
+
+  const handleVisible = () => {
+    setCView(!cview);
+  };
   return (
-    <div className="App">
+    <>
+      <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/011/153/368/small/3d-website-developer-working-on-laptop-illustration-png.png" alt="" />  
+      <h1>Hello, I am Dinesh Patel</h1>
+      <h3>I am Frontend Developer</h3>
+      <p>Today, my UI course finishes, but it marks the beginning of a new journey...... </p> 
+      {cview && <First />}
+      <button onClick={handleVisible}>
+        {cview ? 'Take Rest.....' : 'Let Start.......'}
+      </button>
+      
+
+      
       </header>
-    </div>
-  );
+      </div>
+
+    </>
+  )
 }
 
 export default App;
