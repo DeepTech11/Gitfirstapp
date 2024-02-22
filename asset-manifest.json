@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gitfirstapp/static/css/main.f855e6bc.css",
+    "main.js": "/Gitfirstapp/static/js/main.c7197f90.js",
+    "static/js/453.20f49890.chunk.js": "/Gitfirstapp/static/js/453.20f49890.chunk.js",
+    "index.html": "/Gitfirstapp/index.html",
+    "main.f855e6bc.css.map": "/Gitfirstapp/static/css/main.f855e6bc.css.map",
+    "main.c7197f90.js.map": "/Gitfirstapp/static/js/main.c7197f90.js.map",
+    "453.20f49890.chunk.js.map": "/Gitfirstapp/static/js/453.20f49890.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.c7197f90.js"
+  ]
+}
